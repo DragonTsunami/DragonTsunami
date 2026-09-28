@@ -43,8 +43,7 @@ FastAPI + Vue + MySQL/Redis + Nginx，全容器化 12 服务
 
 ## 📊 GitHub 统计
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=DragonTsunami&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=tokyonight" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DragonTsunami&layout=compact&hide_border=true&langs_count=8&theme=tokyonight" />
+<img height="160" src="https://streak-stats.demolab.com?user=DragonTsunami&theme=tokyonight&hide_border=true&locale=zh_CN" alt="GitHub streak" />
 
 ## 🐍 活跃曲线
 
