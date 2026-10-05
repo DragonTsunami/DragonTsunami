@@ -18,6 +18,16 @@ FastAPI + Vue + MySQL/Redis + Nginx，全容器化 12 服务
 - ✅ **删库恢复演练 RTO 125 秒**：真实 DROP → 备份件恢复 → 行数比对 + 业务闭环全过，金丝雀数据消失实证 RPO
 - ✅ **CI/CD**：GitHub Actions（compose 校验 · 镜像构建 · 测试门禁 + AI 评审）
 
+### [ops-platform](https://github.com/DragonTsunami/ops-platform) — 开源运维平台组装（v0.1 已发布）
+
+Semaphore + Uptime Kuma + Homepage + Adminer + Jenkins + Gitea 六件套，Compose 编排 · 版本钉死
+
+- ✅ **三层版本管理**：Gitea(内容) → Jenkins 构建流水线(CASC 配置即代码) → restic 每日备份(keep_daily 7)
+- ✅ **拨测矩阵**：Uptime Kuma 11 监控 + 公开状态页 · Homepage 仪表盘童话玻璃风定版
+- ✅ **安全基线**：版本全部钉死 · `:?` 密钥守卫拒空启动 · 管理端口 127.0.0.1 最小暴露
+- ✅ **5 类真实故障证据链**：端口抢占 / bolt 方言移除 / Host 校验 / dubious ownership / 假阴性——全部「症状→证据→根因→矫正」留痕
+- ⏳ 进行中：网页端下发 Ansible 任务 · Prometheus 接入平台监控
+
 ### [devops-lab-junior](https://github.com/DragonTsunami/devops-lab-junior) — DevOps 学习实验室
 
 9 服务 Compose 学习栈 + Ansible 双容器靶场，每个坑都有根因分析与验证命令
